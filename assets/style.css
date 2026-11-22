@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --background: #f6f7f5;
+    --surface: #ffffff;
+    --navy: #172b4d;
+    --teal: #367f7a;
+    --text: #263445;
+    --muted: #788493;
+    --border: #e5e9ec;
+}
+
+html, body, [class*="css"] {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.stApp {
+    background: var(--background);
+    color: var(--text);
+}
+
+h1, h2, h3 {
+    font-family: 'Outfit', sans-serif !important;
+    color: var(--navy) !important;
+}
+
+.block-container {
+    max-width: 1250px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+[data-testid="stSidebar"] {
+    background: var(--navy);
+}
+
+[data-testid="stSidebar"] * {
+    color: #ffffff !important;
+}
+
+[data-testid="stMetric"] {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+[data-testid="stMetricValue"] {
+    color: var(--navy);
+}
+
+.stButton > button {
+    background: var(--teal);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.55rem 1.2rem;
+    font-weight: 600;
+}
+
+.stButton > button:hover {
+    background: #286963;
+    color: white;
+}
+
+hr {
+    border-color: var(--border);
+}
+
+
+/* Hide Streamlit's automatic navigation */
+[data-testid="stSidebarNav"] {
+    display: none;
+}
+
+/* Improve sidebar spacing */
+[data-testid="stSidebar"] section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* Improve metric label readability */
+[data-testid="stMetricLabel"] {
+    color: #536273 !important;
+    opacity: 1 !important;
+}
+
+[data-testid="stMetricValue"] {
+    color: #172b4d !important;
+}
+
+/* Improve general text contrast */
+.stMarkdown p {
+    color: #445366;
+}
+
+/* Improve Streamlit form label contrast */
+.stSelectbox label,
+.stRadio label,
+.stNumberInput label,
+.stTextInput label {
+    color: #263445 !important;
+    font-weight: 600 !important;
+}
+
+/* Consistent light dataframe styling */
+[data-testid="stDataFrame"] {
+    border: 1px solid #e5e9ec;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Improve dataframe text readability */
+[data-testid="stDataFrame"] iframe {
+    background: #ffffff;
+}
