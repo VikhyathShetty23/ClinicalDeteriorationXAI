@@ -1,0 +1,3 @@
+Group,Patients,Observed_Hours,Patients_With_Alerts,Total_Episodes,Isolated_Episodes,Sustained_Episodes,Mean_Duration_Hours,Median_Duration_Hours,Episodes_Per_24_Patient_Hours
+Sepsis (2-6h pre-onset),148,604,45,52,10,42,3.5384615384615383,5.0,2.066225165562914
+Non-Sepsis (full observation),1573,58032,108,173,96,77,1.976878612716763,1.0,0.07154673283705541

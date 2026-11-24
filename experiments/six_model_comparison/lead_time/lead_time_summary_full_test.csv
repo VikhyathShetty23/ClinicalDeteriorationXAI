@@ -1,0 +1,4 @@
+Lead_Time_Hours,Total_Sepsis_Patients,Eligible_Patients,Unavailable_Patients,Detected_Patients,Missed_Eligible_Patients,Detection_Rate_Among_Eligible_Pct,Detection_Rate_Among_All_Sepsis_Patients_Pct,Threshold
+6,148,113,35,37,76,32.743362831858406,25.0,0.748707
+4,148,121,27,34,87,28.09917355371901,22.972972972972975,0.748707
+2,148,128,20,37,91,28.90625,25.0,0.748707

@@ -1,0 +1,4 @@
+Lead_Time_Hours,Eligible_Patients,Missing_Prediction_Hours,Detected_Patients,Missed_Patients,Detection_Rate,Threshold
+6,97,51,37,60,0.38144329896907214,0.748707
+4,99,49,34,65,0.3434343434343434,0.748707
+2,111,37,37,74,0.3333333333333333,0.748707

@@ -1,0 +1,18 @@
+{
+    "Model": "Temporal Attention LSTM",
+    "Best Epoch": 7,
+    "Validation AUPRC": 0.047844253587504694,
+    "Threshold": 0.7479084730148315,
+    "AUROC": 0.686122282137907,
+    "AUPRC": 0.05585054106258144,
+    "Precision": 0.07893817673768774,
+    "Recall": 0.17384615384615384,
+    "F1": 0.1085755464809032,
+    "TN": 54195,
+    "FP": 2637,
+    "FN": 1074,
+    "TP": 226,
+    "Train Sequences": 272111,
+    "Validation Sequences": 57574,
+    "Test Sequences": 58132
+}

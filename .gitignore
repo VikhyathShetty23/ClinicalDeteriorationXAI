@@ -18,3 +18,14 @@ __pycache__/
 
 # Environment variables
 .env
+
+# Large dataset files
+*.psv
+*.parquet
+
+# Python experiment outputs
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+.DS_Store
